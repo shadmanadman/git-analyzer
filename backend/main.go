@@ -5,7 +5,7 @@ import(
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"handlers"
+	"backend/handlers"
 )
 func main(){
 	r:= mux.NewRouter()
